@@ -1,0 +1,27 @@
+@import '../../assets/style/style.scss';
+section{
+    width: 93%;
+    height: 100vh;
+    background-color: $darkGray;
+}
+.percent{
+    width: 1000px;
+    height: 600px;
+}
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 600px;
+  height: 600px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}

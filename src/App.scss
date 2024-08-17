@@ -1,0 +1,31 @@
+@import './assets/style/style.scss';
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Barlow', sans-serif;
+  background-color: $mainDark;
+  overflow-x: hidden;
+}
+
+ul,ol{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.App {
+  display: flex;
+}
+.img__polace{
+  width: 192px !important;
+  height: 226px !important;
+  margin-bottom: 10px;
+}
+.imgs{
+  margin-top: 10px;
+}

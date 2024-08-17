@@ -1,0 +1,29 @@
+@import '../../assets/style/style.scss';
+
+.hn__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #393C49;
+    width: 100%;
+    color: white;
+    margin-top: 24px;
+    .active{
+        color: $lightPink;
+        position: relative;
+        &::after{
+            content: '';
+            display: block;
+            height: 3px;
+            width: 50%;
+            background-color: $lightPink;
+            position: absolute;
+            bottom: -1.5px;
+            border-radius: 5px;
+        }
+    }
+}
+.hn__item{
+    padding-bottom: 13px;
+    cursor: pointer;
+}

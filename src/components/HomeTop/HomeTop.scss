@@ -1,0 +1,21 @@
+.home__top{
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: white;
+    form{
+        border: 1px solid rgb(57, 60, 73);
+        border-radius: 8px;
+        padding: 14px;
+        background-color: #2D303E;
+        input{
+            background-color: transparent;
+            color: white;
+            border: none;
+            outline: none;
+            margin-left: 10px;
+        }
+    }
+}

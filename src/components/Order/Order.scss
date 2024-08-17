@@ -1,0 +1,138 @@
+@import '../../assets/style/style.scss';
+.order{
+    width: 35%;
+    height: 100vh;
+    padding: 21px;
+    color: #fff;
+    margin-left: 20px;
+    background-color: $mainDark; 
+    transition: all ease 0.3s;
+    position: relative;
+    z-index: 4;
+    border-right: 1px solid #eee;
+    border-radius: 16px 0px 0px 16px;
+}
+.order__span{
+    button{
+        margin-top: 24px;
+        width: 66px;
+        height: 34px;
+        background-color: transparent;
+        border-radius: 8px;
+        color: $lightPink;
+        margin-left: 8px;
+        border: 1px solid $lightPink;
+        transition: all ease 0.3s;
+    }
+    .active{
+        background-color: $lightPink;
+        color: white;
+    }
+    button:hover{
+        background-color: $lightPink;
+        border: none;
+        color: white;
+    }
+}
+
+
+button:nth-child(1){
+    margin-left: 0px;
+}
+
+.order__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-top: 24px;
+    span{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 10px;
+        color: white;
+    }
+}
+
+.order__list{
+    // width: 500px;
+    // height: 515px;
+    height: 70vh;
+    overflow-y: scroll;
+    margin-bottom: 15px;
+}
+
+.order__item{
+    margin-top: 48px;
+    .item__top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 16px;
+        span{
+            display: block;
+            width: 45%;
+        }
+        img{
+            width: 43px;
+            height: 43px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .item__count{
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            background-color: $darkGray;
+        }
+    }
+    .item__bot{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 6px;
+        input{
+            background-color: transparent;
+            padding: 14px;
+            border-radius: 8px;
+            border: 1px solid rgb(57, 60, 73);
+            background-color: $darkGray;
+            outline: none;
+            width: 79.9%;
+        }
+        button{
+            background-color: transparent;
+            border: 1px solid $lightPink;
+            padding: 14px;
+            color: $lightPink;
+            border-radius: 8px;
+            transition: all ease 0.3s;
+            &:hover{
+                background-color: $lightPink;
+                color: white;
+            }
+        }
+    }
+}
+.to__payment{
+    width: 361px;
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+    border-radius: 8px;
+    color: $lightPink;
+    border: 1px solid $lightPink;
+    transition: all ease 0.3s;
+    :hover{
+        background-color: $lightPink;
+        border: none;
+        color: white;
+    }
+}

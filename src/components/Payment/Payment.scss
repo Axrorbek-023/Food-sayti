@@ -1,0 +1,147 @@
+@import '../../assets/style/style.scss';
+.payment{
+    width: 31.7%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background-color: $mainDark;
+    right: -35%;
+    transition: all ease 0.3s;
+}
+
+.payment__title{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}
+
+.payment__p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ABBBC2;
+}
+
+.two{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 44px;
+}
+
+.pay__cards{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pay__card{
+    border: 1px solid #ABBBC2;
+    border-radius: 8px;
+    width: 101px;
+    height: 64px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+    .card__img{
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .card__info{
+        margin-top: 8px;
+        color: #ABBBC2;
+        display: block;
+        text-align: center;
+    }
+}
+
+
+.lab__in__box{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.lab{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.box__inp{
+    display: block; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 357px;
+    height: 48px;
+    padding: 14px;
+    color: #ABBBC2;
+    border: 1px solid rgb(57, 60, 73);
+    border-radius: 8px;
+    background: rgb(45, 48, 62);
+}
+
+
+.box__div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.lab2{
+    display: block;
+}
+
+.div__inp{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+    width: 172px;
+    height: 48px;
+    padding: 14px;
+    color: #ABBBC2;
+    border: 1px solid rgb(57, 60, 73);
+    border-radius: 8px;
+    background: rgb(45, 48, 62);
+}
+
+
+.cancel{
+    width: 175px;
+    height: 48px;
+    padding: 14px;
+    margin-left: 20px;
+    background-color: transparent;
+    border-radius: 8px;
+    color: $lightPink;
+    border: 1px solid $lightPink;
+    transition: all ease 0.3s;
+    :hover{
+        background-color: $lightPink;
+        border: none;
+        color: white;
+    }
+}
+.confirm{
+    width: 175px;
+    height: 48px;
+    margin-left: 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: $lightPink;
+    color: white;
+    box-shadow: 0px 8px 24px 0px rgba(234, 124, 105, 0.4);
+}
